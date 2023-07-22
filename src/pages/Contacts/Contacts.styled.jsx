@@ -12,4 +12,7 @@ export const BackGroundImage = styled.div`
 export const StyledDiv = styled.div`
   display: flex;
   gap: 100px;
+  @media (max-width: 900px) {
+    display: block;
+  }
 `;

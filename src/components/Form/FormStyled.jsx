@@ -3,6 +3,9 @@ import { Form, Field } from 'formik';
 
 export const Box = styled.div`
   margin-left: 50px;
+  @media (max-width: 530px) {
+    margin-left: 20px;
+  }
 `;
 export const Title = styled.h1`
   font-size: xx-large;
@@ -13,6 +16,9 @@ export const FormStyled = styled(Form)`
   display: flex;
   flex-direction: column;
   width: 350px;
+  @media (max-width: 530px) {
+    width: 250px;
+  }
   max-height: 250px;
   border: 3px solid white;
 `;
@@ -33,4 +39,5 @@ export const Button = styled.button`
   border-color: gray;
   border-radius: 5px;
   margin-top: 10px;
+  cursor: pointer;
 `;

@@ -5,13 +5,14 @@ export const FormStyled = styled(Form)`
   padding: 10px;
   display: flex;
   flex-direction: column;
-  width: 350px;
+  max-width: 350px;
   max-height: 350px;
   border: 3px dashed white;
   border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  margin-bottom: 10px;
 `;
 export const Input = styled(Field)`
   width: 230px;
@@ -39,4 +40,5 @@ export const Button = styled.button`
   margin-right: auto;
   margin-top: 10px;
   margin-bottom: 5px;
+  cursor: pointer;
 `;

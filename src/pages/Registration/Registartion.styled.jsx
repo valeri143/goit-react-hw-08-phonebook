@@ -19,3 +19,16 @@ export const StyledH2 = styled.h2`
   margin-bottom: 50px;
   text-align: center;
 `;
+
+export const StyledButton = styled.button`
+  background: none;
+  border: none;
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  &:hover {
+    border-bottom: 1px solid white;
+  }
+`;

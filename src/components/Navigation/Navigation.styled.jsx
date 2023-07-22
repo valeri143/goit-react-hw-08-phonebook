@@ -7,6 +7,9 @@ export const StyledHeader = styled.header`
   background-color: black;
   display: flex;
   justify-content: space-between;
+  @media (max-width: 530px) {
+    display: block;
+  }
   border-bottom: 0 solid white;
   transition: border-bottom-width 0.3s;
   &:hover {

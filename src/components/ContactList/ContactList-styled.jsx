@@ -2,6 +2,9 @@ import styled from '@emotion/styled';
 
 export const Box = styled.div`
   margin-left: 50px;
+  @media (max-width: 530px) {
+    margin-left: 20px;
+  }
 `;
 export const Text = styled.p`
   font-size: large;
@@ -31,10 +34,3 @@ export const Button = styled.button`
     transform: translateY(2px);
   }
 `;
-
-// margin-left: 7px;
-// width: 50px;
-// background-color: transparent;
-// border-color: white;
-// border-radius: 5px;
-// color: white;

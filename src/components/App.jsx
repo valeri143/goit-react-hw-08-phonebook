@@ -7,6 +7,7 @@ import { selectIsRefreshing } from 'redux/userAuthSlice/selectors';
 import { RestrictedRoute } from './RestrictedRoute';
 import PrivateRoute from './PrivateRoute';
 import { ThreeDots } from 'react-loader-spinner';
+import { NotFound } from 'pages/NotFound/NotFound';
 
 const Registartion = lazy(() => import('../pages/Registration/Registration'));
 const Login = lazy(() => import('../pages/Login/Login'));
@@ -60,6 +61,7 @@ export const App = () => {
               }
             />
           </Route>
+          <Route path="*" element={<NotFound />} />
         </Routes>
       )}
     </>
