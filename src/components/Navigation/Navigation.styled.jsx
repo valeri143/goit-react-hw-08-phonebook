@@ -16,6 +16,17 @@ export const StyledHeader = styled.header`
     border-bottom-width: 5px;
   }
 `;
+export const StyledFooter = styled.footer`
+  color: rgba(90, 35, 114, 0.38);
+  height: 40px;
+  padding: 20px 15px;
+  background-color: black;
+  border-top: 0 solid white;
+  transition: border-top-width 0.3s;
+  &:hover {
+    border-top-width: 5px;
+  }
+`;
 
 export const StyledNav = styled.nav`
   display: flex;

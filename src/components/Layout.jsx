@@ -2,6 +2,7 @@ import { Outlet } from 'react-router-dom';
 import { Navigation } from './Navigation/Navigation';
 import { Suspense } from 'react';
 import { ThreeDots } from 'react-loader-spinner';
+import { StyledFooter } from './Navigation/Navigation.styled';
 
 export const Layout = () => {
   return (
@@ -22,6 +23,7 @@ export const Layout = () => {
         }
       >
         <Outlet />
+        <StyledFooter>PhoneBook. Created by Valeria Vasahlo</StyledFooter>
       </Suspense>
     </>
   );
